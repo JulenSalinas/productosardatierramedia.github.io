@@ -59,7 +59,7 @@ createApp({
     <div class="row row-cols-1 row-cols-md-3 g-4">
   <div v-for="item in paginatedProducts" :key="item.id" class="col">
     <div class="card h-100">
-      <img :src="item.imagen" class="card-img-top" :alt="item.nombre" style="width: 100%; height: 420px;">
+      <img :src="item.imagen" class="card-img-top" :alt="item.nombre" style="width: 100%; height: 550px;">
       <div class="card-body">
         <h5 class="card-title">{{ item.nombre }}</h5>
         <p class="card-text">Precio: {{ (item.precio).toFixed(2) }} {{ divisa }}</p>
